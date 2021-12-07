@@ -19,6 +19,24 @@ body{
 .icon-input{
   height: 45px;
 }
+.card-aps{
+  position: absolute;
+  bottom: -30px;
+  width: 86%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../img/aire-1.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .date{
   border-radius: 3px;
   border: 1.5px solid #0071c2;
@@ -144,11 +162,21 @@ h1{color: #0071c2;}
 
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
+  .card-aps{
+    position: absolute;
+    bottom: -30px;
+    width: 93%;
+  }
   
  }
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
+  .card-aps{
+    position: absolute;
+    bottom: -30px;
+    width: 93%;
+  }
 
   
  }
