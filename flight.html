@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" >
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.png" />
+    <title> Moshitools - Flight </title>
+</head>
+<body>
+    <div>
+        <!-- البار العلوي -->
+        <header class="blog-header py-2 px-3 bg-light">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-4 col-lg-3 col-x-3 pt-1">
+                    <h1 class='h3 m-0'><a href="index.html"><img width='50px' src='img/logo.png' alt='logo'/></a>Moshitools</h1>
+                </div>
+                <div class="col-sm-12 col-md-8 col-lg-9 col-x-9">
+                    <div class=" float-end d-flex mt-1">
+                        <a class="h6 mx-2" href="index.html">Home</a>
+                        <a class="h6 mx-2" href="flight.html">flights</a>
+                        <a class="h6 mx-2" href="#">Hotels</a>
+                        <a class="h6 mx-2" href="#">Rent a Car</a>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container-fluid px-4">
+
+        </div>
+        <main class="container d-flex justify-content-center">
+            <div class="row g-5 w-100 p-0 m-0">
+                <!-- الفلتر -->
+                <div class="col-md-3 mt-3 d-none d-sm-none d-lg-none d-xl-block">
+                    <div class="position-sticky" style='top:2rem'>
+                        <div class="h-100 p-3 mb-3 bg-white border">
+                            <h4 class="h5">Filter by :</h4>
+                            <table class="table">
+                                <tbody>
+                                    
+                                    <tr><th>Stops</th><td></td> </tr>
+                                    <tr>
+                                        <td><input type='checkbox' /> NonStop</td>
+                                        <td>$00</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type='checkbox' /> Stop</td>
+                                        <td>$145</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td><input type='checkbox' /> +2 Stops</td>
+                                        <td>$145</td>
+                                    </tr>
+                                    <!-- Coved -->
+                                    <tr><th>COVED-19 Policies</th> <th></th></tr>
+                                    <tr> <td><input type='checkbox' /> Flexible Changes</td> <td></td></tr>
+                                    <tr> <td><input type='checkbox' /> Flexible Cancellations</td> <td></td> </tr>
+                                    <!-- Airlines -->
+                                    <tr><th>Airlines</th> <th></th></tr>
+                                    <tr><th class="h6">Select all airlines</th> <th></th></tr>
+                                    <tr>
+                                        <td><input type='checkbox' /> Egyptair</td>
+                                        <td>$435</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type='checkbox' /> Emirates</td>
+                                        <td>$345</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type='checkbox' /> Pegasus</td>
+                                        <td>$564</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type='checkbox' /> Qatar Airways</td>
+                                        <td>$432</td>
+                                    </tr>
+                                    <!-- Alliance -->
+                                    <tr><th>Alliance</th> <th></th></tr>
+
+                                    <tr>
+                                        <td><input type='checkbox' /> Oneworld</td>
+                                        <td><img src="https://static.tacdn.com/img2/flights/resultFilter/oneworld.png" alt="Oneworld"></td> 
+                                    </tr>
+
+                                    <tr>
+                                        <td><input type='checkbox' /> Sky Team</td>
+                                        <td><img src="https://static.tacdn.com/img2/flights/resultFilter/skyteam.png" alt="Sky Team"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><input type='checkbox' /> Star Alliance</td>
+                                        <td><img src="https://static.tacdn.com/img2/flights/resultFilter/staralliance.png" alt="Star Alliance"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- البطاقات -->
+                <div class="col-md-8 col-lg-8 col-xl-6 p-3 mt-3 ">
+                    <div class="alert bg-white border alert-dismissible fade show" role="alert">
+                        Great news, we found you an even lower fare!
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                      </div>
+                    <!-- Card -->
+                    <div class='m-0 border row bg-white mb-2 box p-2'>
+                        <div class='col-sm-12 col-md-12 col-lg-8 col-xl-8 p-0 m-0 position-relative'>
+                            <!-- 1 -->
+                            <div class="d-flex">
+                                <div class="col-1">
+                                    <img width="40px" src="https://static.tacdn.com/img2/flights/airlines/logos/100x100/Turkish-Airlines.png" alt="Turkish Airlines">
+
+                                </div>
+                                <div class="col-7 ms-3">
+                                    <h5 class="m-0 date">6:10 AM - 2:35 PM</h5>
+                                    <span class="company-flight">AMM - CMN, Turkish Airlines</span>
+                                </div>
+                                <div class="mx-3 col-4">
+                                    <span>9h 25m</span>
+                                    <h6 data-bs-toggle="tooltip" data-bs-placement="top" title="2h 10m layover, Istanbul Airport">1 stop, IST</h6>
+                                </div>
+                            
+                            </div>   
+                            <!-- 2 -->
+                            <div class="d-flex mt-4">
+                                <div class="col-1">
+                                    <img width="40px" src="https://static.tacdn.com/img2/flights/airlines/logos/100x100/Turkish-Airlines.png" alt="Turkish Airlines">
+
+                                </div>
+                                <div class="col-7 ms-3">
+                                    <h5 class="m-0 date">7:20 AM - 9:35 PM</h5>
+                                    <span class="company-flight">AMM - CMN, Turkish Airlines</span>
+                                </div>
+                                <div class="mx-3 col-4">
+                                    <span>9h 25m</span>
+                                    <h6 data-bs-toggle="tooltip" data-bs-placement="top" title="2h 10m layover, Istanbul Airport">1 stop, IST</h6>
+                                </div>
+                            
+                            </div>                       
+                         </div>
+                    <div class='col-sm-12 col-md-12 col-lg-4 col-xl-4'>
+                        <div class='text-center py-2'>
+                            <span class='text-black h4'>$ 500</span>
+                            <a href='#' class='btn btn-detail mt-3 w-100'>View  Detail</a>  
+                        </div>
+                    </div>
+                    </div>
+
+
+                    <div class='m-0 border row bg-white mb-2 box p-2'>
+                        <div class='col-sm-12 col-md-12 col-lg-8 col-xl-8 p-0 m-0 position-relative'>
+                            <!-- 1 -->
+                            <div class="d-flex">
+                                <div class="col-1">
+                                    <img width="40px"
+                                        src="https://static.tacdn.com/img2/flights/airlines/logos/100x100/Emirates2.png"
+                                        alt="Turkish Airlines">
+                                </div>
+                                <div class="col-7 ms-3">
+                                    <h5 class="m-0 date">9:00 AM - 12:35 PM</h5>
+                                    <span class="company-flight">AMM - CMN, Turkish Airlines</span>
+                                </div>
+                                <div class="mx-3 col-4">
+                                    <span>5h 25m</span>
+                                    <h6 data-bs-toggle="tooltip" data-bs-placement="top" title="2h 10m layover, Istanbul Airport">1 stop,
+                                        IST</h6>
+                                </div>
+                    
+                            </div>
+                            <!-- 2 -->
+                            <div class="d-flex mt-4">
+                                <div class="col-1">
+                                    <img width="40px"
+                                        src="https://static.tacdn.com/img2/flights/airlines/logos/100x100/api_default.png"
+                                        alt="Turkish Airlines">
+                    
+                                </div>
+                                <div class="col-7 ms-3">
+                                    <h5 class="m-0 date">3:10 AM - 7:35 PM</h5>
+                                    <span class="company-flight">AMM - CMN, Turkish Airlines</span>
+                                </div>
+                                <div class="mx-3 col-4">
+                                    <span>2h 25m</span>
+                                    <h6 data-bs-toggle="tooltip" data-bs-placement="top" title="2h 10m layover, Istanbul Airport">1 stop,
+                                        IST</h6>
+                                </div>
+                    
+                            </div>
+                        </div>
+                        <div class='col-sm-12 col-md-12 col-lg-4 col-xl-4'>
+                            <div class='text-center py-2'>
+                                <span class='text-black h4'>$ 193</span>
+                                <a href='#' class='btn btn-detail mt-3 w-100'>View Detail</a>
+                    
+                            </div>
+                    
+                        </div>
+                    </div>
+
+                    <div class='m-0 border row bg-white mb-2 box p-2'>
+                        <div class='col-sm-12 col-md-12 col-lg-8 col-xl-8 p-0 m-0 position-relative'>
+                            <!-- 1 -->
+                            <div class="d-flex">
+                                <div class="col-1">
+                                    <img width="40px" src="https://static.tacdn.com/img2/flights/airlines/logos/100x100/EgyptAir.png" alt="Turkish Airlines">
+
+                                </div>
+                                <div class="col-7 ms-3">
+                                    <h5 class="m-0 date">4:10 AM - 9:35 PM</h5>
+                                    <span class="company-flight">AMM - CMN, Turkish Airlines</span>
+                                </div>
+                                <div class="mx-3 col-4">
+                                    <span>5h 25m</span>
+                                    <h6 data-bs-toggle="tooltip" data-bs-placement="top" title="2h 10m layover, Istanbul Airport">1 stop, IST</h6>
+                                </div>
+                            
+                            </div>   
+                            <!-- 2 -->
+                            <div class="d-flex mt-4">
+                                <div class="col-1">
+                                    <img width="40px" src="https://static.tacdn.com/img2/flights/airlines/logos/100x100/EgyptAir.png" alt="Turkish Airlines">
+                                </div>
+                                <div class="col-7 ms-3">
+                                    <h5 class="m-0 date">7:10 AM - 6:35 PM</h5>
+                                    <span class="company-flight">AMM - CMN, Turkish Airlines</span>
+                                </div>
+                                <div class="mx-3 col-4">
+                                    <span>12h 35m</span>
+                                    <h6 data-bs-toggle="tooltip" data-bs-placement="top" title="2h 10m layover, Istanbul Airport">1 stop, IST</h6>
+                                </div>
+                            
+                            </div>                       
+                         </div>
+                    <div class='col-sm-12 col-md-12 col-lg-4 col-xl-4'>
+                        <div class='text-center py-2'>
+                            <span class='text-black h4'>$ 354</span>
+                            <a href='#' class='btn btn-detail mt-3 w-100'>View  Detail</a>  
+
+                        </div>
+                
+                    </div>
+                    </div>
+
+                    <nav aria-label="Page navigation example mt-2">
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- الإعلانات -->
+                <div class="col-md-4 col-lg-4 col-xl-3 p-1 mt-3">
+                    <div class="position-sticky" style="top: 2rem;">
+                        <div class="p-2 mb-3 bg-white rounded border">
+                            <div class='mb-2'>
+                                <img class='w-100' src='https://media-cdn.tripadvisor.com/media/daodao/photo-l/16/fc/e3/94/photo4jpg.jpg' alt='Adds' />
+                            </div>
+                            <div class='mb-2'>
+                                <img class='w-100' src='https://s1.apideeplink.com/images/websites/mtuk.png' alt='Adds' />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- البار السفلي -->
+        <footer class="text-muted py-3 bg-white mt-3">
+            <div class="container">
+                <div class="row">
+                    <p class="float-end mb-1 col-md-2 text-center">
+                        <img width="100px" src="img/logo.png" alt="logo">
+                    </p>
+                    <p class="mb-1 col-md-10">
+                        MASHITOOLS is a leading travel comparison site that lets you find cheap flights, hotels, car rentals and
+                        vacation package online. Whether you're traveling for fun, business, adventure, or relaxation, your
+                        ideal trip is simply a click away! You can compare airline fares, hotel rates, and car rentals from all
+                        the top internet travel sites in one location. Finding cheap flights has never been easier. Save time,
+                        save money; there's no need to visit website after website to find cheap airline ticket or the best
+                        deals. It's all here for you in one location.</p>
+                </div>
+                <div class="d-flex gap-5 justify-content-center mt-2">
+                    <a href="#">Private Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">About us</a>
+                </div>
+        
+            </div>
+        </footer>
+    </div>
+</body>
+
+<script src="js/script.js"></script>
+<script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+  </script>
+</html>
