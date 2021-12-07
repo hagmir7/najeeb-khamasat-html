@@ -12,7 +12,35 @@
 </head>
 <body>
     <div>
-        <!-- البار العلوي -->
+      <!-- البار العليوي الأول -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <div class="container-fluid d-flex justify-content-center align-items-center w-100">
+
+          <div class="d-block m-auto">
+            <ul class="d-flex">
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Hotels</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Flights deals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Car rental</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+        <!-- البار العلوي الثاني -->
         <header class="blog-header py-2 px-3 bg-light">
             <div class="row align-items-center">
                 <div class="col-sm-12 col-md-4 col-lg-3 col-x-3 pt-1">
@@ -29,7 +57,7 @@
                 </div>
             </div>
         </header>
-        <main class="container">
+        <main class="container p-0 col-sm-12 col-md-12 col-lg-8 col-xl-8">
             <!-- 1 -->
             <div class="row mt-3">
                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -59,35 +87,35 @@
 
             <div id="accordion">
                 <!-- Coll 1 -->
-              <div class="card border-0">
+              <div class="card mt-2 content-form">
                 <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
                   <div class="card-body row">
                       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                        <div class="form-to d-flex gap-5 ">
+                        <div class="row">
                             <!-- Input 1 -->
-                          <div>
-                              <label for="form">Form</label>
-                              <div class="input-group">
-                                  <div class="input-group-text icon-input date">
+                          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                              <label for="form">From</label>
+                              <div class="input-group date">
+                                  <div class="input-group-text icon-input bg-white border-0 p-0">
                                       <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
                                           <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path>
                                           <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
                                       </svg>
                                   </div>
-                                  <input type="text" id="from" class="form-control date date" placeholder="Input your location">
+                                  <input type="text" id="from" class="form-control border-0" placeholder="Input your location">
                               </div>
                           </div>
                             <!-- Inpput 2 -->
-                          <div>
+                          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
                               <label for="to">To</label>
-                              <div class="input-group">
-                                  <div class="input-group-text icon-input date">
+                              <div class="input-group date">
+                                  <div class="input-group-text icon-input input-group-text icon-input bg-white border-0 p-0">
                                       <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
                                           <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path>
                                           <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
                                       </svg>                      
                                  </div>
-                                      <input type="text" class="form-control date" id="to" placeholder="Enter city or airport">
+                                      <input type="text" class="form-control border-0" id="to" placeholder="Enter city or airport">
                                 </div>
                           </div>
                         </div>
@@ -107,21 +135,16 @@
                           </div>
                       </div>
                       <!-- Date -->
-                      <div class="date d-flex my-4">
-                          <div class="input-group">
+                      <div class="date my-4 row">
+                          <div class="col-6 m-0">
                               <input type="date" id="depart" class="date-item w-100">
                             </div>
-                            <div class="input-group">
+                            <div class=" col-6 m-0">
                               <input type="date" id="return" placeholder="Return" class="date-item w-100">
                             </div>
                         </div>
-  
-                          <select class="form-select form-select-lg my-4 date" aria-label=".form-select-lg example">
-                              <option selected>1 Adult, Economy</option>
-                              <option value="1">One</option>
-                              <option value="2">Two</option>
-                              <option value="3">Three</option>
-                            </select>
+
+                            <input type="text" class="form-control  my-4 date" placeholder="Receive our travel deals newletter">
                           <div class="submit mt-3" >
                               <input type="submit" value="Find deals" class="btn-detail w-100">
                           </div>
