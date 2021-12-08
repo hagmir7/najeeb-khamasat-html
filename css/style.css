@@ -24,6 +24,7 @@ body{
   bottom: -30px;
   width: 86%;
 }
+<<<<<<< HEAD
 .img-card{
   object-fit: cover;
   height: 240px;
@@ -32,6 +33,9 @@ body{
   bottom: 16px;
   left: 36px;
 }
+=======
+
+>>>>>>> be7297f47d0e05809440d84aa1fdda6fd5b99e54
 .bg {
   /* The image used */
   background-image: url("../img/aire-1.jpg");
