@@ -12,24 +12,47 @@
 </head>
 <body>
     <div>
-        <!-- البار العلوي -->
+      <!-- البار العليوي الأول -->
+      <div class="bg">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <div class="container-fluid d-flex justify-content-center align-items-center w-100">
+
+          <div class="d-block m-auto">
+            <ul class="d-flex">
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Hotels</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Flights deals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Car rental</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        <!-- البار العلوي الثاني -->
         <header class="blog-header py-2 px-3 bg-light">
             <div class="row align-items-center">
                 <div class="col-sm-12 col-md-4 col-lg-3 col-x-3 pt-1">
                     <h1 class='h3 m-0'><a href="index.html"><img width='50px' src='img/logo.png' alt='logo'/></a>Moshitools</h1>
                 </div>
                 <div class="col-sm-12 col-md-8 col-lg-9 col-x-9">
-                    <div class=" float-end d-flex mt-1">
-                        <a class="h6 mx-2" href="index.html">Home</a>
-                        <a class="h6 mx-2" href="flight.html">flights</a>
-                        <a class="h6 mx-2" href="#">Hotels</a>
-                        <a class="h6 mx-2" href="#">Rent a Car</a>
-
-                    </div>
                 </div>
             </div>
         </header>
-        <main class="container">
+        <div class="my-4">
+          <h3 class="text-center">Hello Travelers. Where Would you like to go?</h3>
+        </div>
+        <main class="container p-0 col-sm-12 col-md-12 col-lg-8 col-xl-8 mt-5 pb-5">
             <!-- 1 -->
             <div class="row mt-3">
                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -59,35 +82,35 @@
 
             <div id="accordion">
                 <!-- Coll 1 -->
-              <div class="card border-0">
-                <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+              <div class="card border-0 mt-2">
+                <div id="collapseOne" class="collapse content-form show" data-bs-parent="#accordion">
                   <div class="card-body row">
                       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                        <div class="form-to d-flex gap-5 ">
+                        <div class="row">
                             <!-- Input 1 -->
-                          <div>
-                              <label for="form">Form</label>
-                              <div class="input-group">
-                                  <div class="input-group-text icon-input date">
+                          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                              <label for="form">From</label>
+                              <div class="input-group date">
+                                  <div class="input-group-text icon-input bg-white border-0 p-0">
                                       <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
                                           <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path>
                                           <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
                                       </svg>
                                   </div>
-                                  <input type="text" id="from" class="form-control date date" placeholder="Input your location">
+                                  <input type="text" id="from" class="form-control border-0" placeholder="Input your location">
                               </div>
                           </div>
                             <!-- Inpput 2 -->
-                          <div>
+                          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
                               <label for="to">To</label>
-                              <div class="input-group">
-                                  <div class="input-group-text icon-input date">
+                              <div class="input-group date">
+                                  <div class="input-group-text icon-input input-group-text icon-input bg-white border-0 p-0">
                                       <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
                                           <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path>
                                           <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
                                       </svg>                      
                                  </div>
-                                      <input type="text" class="form-control date" id="to" placeholder="Enter city or airport">
+                                      <input type="text" class="form-control border-0" id="to" placeholder="Enter city or airport">
                                 </div>
                           </div>
                         </div>
@@ -107,21 +130,16 @@
                           </div>
                       </div>
                       <!-- Date -->
-                      <div class="date d-flex my-4">
-                          <div class="input-group">
+                      <div class="date my-4 row">
+                          <div class="col-6 m-0">
                               <input type="date" id="depart" class="date-item w-100">
                             </div>
-                            <div class="input-group">
+                            <div class=" col-6 m-0">
                               <input type="date" id="return" placeholder="Return" class="date-item w-100">
                             </div>
                         </div>
-  
-                          <select class="form-select form-select-lg my-4 date" aria-label=".form-select-lg example">
-                              <option selected>1 Adult, Economy</option>
-                              <option value="1">One</option>
-                              <option value="2">Two</option>
-                              <option value="3">Three</option>
-                            </select>
+
+                            <input type="text" class="form-control  my-4 date" placeholder="Receive our travel deals newletter">
                           <div class="submit mt-3" >
                               <input type="submit" value="Find deals" class="btn-detail w-100">
                           </div>
@@ -156,192 +174,297 @@
               </div>
                 <!-- Coll 2 -->
               <div class="card border-0">
-                <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
-                    <div class="card-body row">
+                <div id="collapseTwo" class="collapse content-form" data-bs-parent="#accordion">
+                  <div class="card-body row">
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                      <div class="row">
+                          <!-- Input 1 -->
                         <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                          <div class="form-to d-flex gap-5 ">
-                              <!-- Input 1 -->
-                            <div>
-                                <label for="form">Form</label>
-                                <div class="input-group">
-                                    <div class="input-group-text icon-input date">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path>
-                                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
-                                        </svg>
-                                    </div>
-                                    <input type="text" id="from" class="form-control date date" placeholder="Input your location">
+                            <label for="form">From</label>
+                            <div class="input-group date">
+                                <div class="input-group-text icon-input bg-white border-0 p-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path>
+                                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+                                    </svg>
                                 </div>
-                            </div>
-                              <!-- Inpput 2 -->
-                            <div>
-                                <label for="to">To</label>
-                                <div class="input-group">
-                                    <div class="input-group-text icon-input date">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path>
-                                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
-                                        </svg>                      
-                                   </div>
-                                        <input type="text" class="form-control date" id="to" placeholder="Enter city or airport">
-                                  </div>
-                            </div>
-                          </div>
-                          <!-- Radio -->
-                        <div class="d-flex gap-5 my-4">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
-                                    Round-trip
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                <label class="form-check-label" for="flexRadioDefault2">
-                                    One-way
-                                </label>
+                                <input type="text" id="from" class="form-control border-0" placeholder="Input your location">
                             </div>
                         </div>
-                        <!-- Date -->
-                        <div class="date d-flex my-4">
-                            <div class="input-group">
-                                <input type="date" id="depart" class="date-item w-100">
-                              </div>
-                              <div class="input-group">
-                                <input type="date" id="return" placeholder="Return" class="date-item w-100">
-                              </div>
-                          </div>
-    
-                            <select class="form-select form-select-lg my-4 date" aria-label=".form-select-lg example">
-                                <option selected>1 Adult, Economy</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                              </select>
-                            <div class="submit mt-3" >
-                                <input type="submit" value="Find deals" class="btn-detail w-100">
-                            </div>
-  
-                            <div class="form-check mt-4">
-                              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                              <label class="form-check-label" for="flexCheckChecked">
-                                Receive our travel deals newletter
-                              </label>
-                            </div>
-  
-                        </div>
-                        
-                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex text-center">
-                          <hr class="d-none d-sm-block d-md-block">
-                            <div>
-                              <h5 class="mt-3">We work with mote than 300 partners to bring you better travel deal</h5>
-                              <div class="d-flex justify-content-center">
-                               <div class="d-grid gap-4">
-                                  <img width="130px" src="img/booking.png" alt="booking">
-                                  <img width="130px" src="img/agoda.jpg" alt="agoda">
-                                  <img width="130px" src="img/Skyscanner.jpg" alt="Skyscanner">
+                          <!-- Inpput 2 -->
+                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <label for="to">To</label>
+                            <div class="input-group date">
+                                <div class="input-group-text icon-input input-group-text icon-input bg-white border-0 p-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path>
+                                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+                                    </svg>                      
                                </div>
+                                    <input type="text" class="form-control border-0" id="to" placeholder="Enter city or airport">
                               </div>
-                            </div>
                         </div>
-                  </div>
+                      </div>
+                      <!-- Radio -->
+                    <div class="d-flex gap-5 my-4">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Round-trip
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                One-way
+                            </label>
+                        </div>
+                    </div>
+                    <!-- Date -->
+                    <div class="date my-4 row">
+                        <div class="col-6 m-0">
+                            <input type="date" id="depart" class="date-item w-100">
+                          </div>
+                          <div class=" col-6 m-0">
+                            <input type="date" id="return" placeholder="Return" class="date-item w-100">
+                          </div>
+                      </div>
+
+                          <input type="text" class="form-control  my-4 date" placeholder="Receive our travel deals newletter">
+                        <div class="submit mt-3" >
+                            <input type="submit" value="Find deals" class="btn-detail w-100">
+                        </div>
+
+                        <div class="form-check mt-4">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                          <label class="form-check-label" for="flexCheckChecked">
+                            Receive our travel deals newletter
+                          </label>
+                        </div>
+
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex text-center">
+                      <hr class="d-none d-sm-block d-md-block">
+                        <div>
+                          <h5 class="mt-3">We work with mote than 300 partners to bring you better travel deal</h5>
+                          <div class="d-flex justify-content-center">
+                           <div class="d-grid gap-4">
+                              <img width="130px" src="img/booking.png" alt="booking">
+                              <img width="130px" src="img/agoda.jpg" alt="agoda">
+                              <img width="130px" src="img/Skyscanner.jpg" alt="Skyscanner">
+                           </div>
+                          </div>
+                        </div>
+                    </div>
+
+                        
+
+              </div>
                 </div>
               </div>
                 <!-- Coll 3 -->
               <div class="card border-0">
-                <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
-                    <div class="card-body row">
+                <div id="collapseThree" class="collapse content-form" data-bs-parent="#accordion">
+                  <div class="card-body row">
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                      <div class="row">
+                          <!-- Input 1 -->
                         <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                          <div class="form-to d-flex gap-5 ">
-                              <!-- Input 1 -->
-                            <div>
-                                <label for="form">Form</label>
-                                <div class="input-group">
-                                    <div class="input-group-text icon-input date">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path>
-                                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
-                                        </svg>
-                                    </div>
-                                    <input type="text" id="from" class="form-control date date" placeholder="Input your location">
+                            <label for="form">From</label>
+                            <div class="input-group date">
+                                <div class="input-group-text icon-input bg-white border-0 p-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path>
+                                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+                                    </svg>
                                 </div>
-                            </div>
-                              <!-- Inpput 2 -->
-                            <div>
-                                <label for="to">To</label>
-                                <div class="input-group">
-                                    <div class="input-group-text icon-input date">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path>
-                                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
-                                        </svg>                      
-                                   </div>
-                                        <input type="text" class="form-control date" id="to" placeholder="Enter city or airport">
-                                  </div>
-                            </div>
-                          </div>
-                          <!-- Radio -->
-                        <div class="d-flex gap-5 my-4">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
-                                    Round-trip
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                <label class="form-check-label" for="flexRadioDefault2">
-                                    One-way
-                                </label>
+                                <input type="text" id="from" class="form-control border-0" placeholder="Input your location">
                             </div>
                         </div>
-                        <!-- Date -->
-                        <div class="date d-flex my-4">
-                            <div class="input-group">
-                                <input type="date" id="depart" class="date-item w-100">
-                              </div>
-                              <div class="input-group">
-                                <input type="date" id="return" placeholder="Return" class="date-item w-100">
-                              </div>
-                          </div>
-                            <select class="form-select form-select-lg my-4 date" aria-label=".form-select-lg example">
-                                <option selected>1 Adult, Economy</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                              </select>
-                            <div class="submit mt-3" >
-                                <input type="submit" value="Find deals" class="btn-detail w-100">
-                            </div>
-  
-                            <div class="form-check mt-4">
-                              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                              <label class="form-check-label" for="flexCheckChecked">
-                                Receive our travel deals newletter
-                              </label>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex text-center">
-                          <hr class="d-none d-sm-block d-md-block">
-                            <div>
-                              <h5 class="mt-3">We work with mote than 300 partners to bring you better travel deal</h5>
-                              <div class="d-flex justify-content-center">
-                               <div class="d-grid gap-4">
-                                  <img width="130px" src="img/booking.png" alt="booking">
-                                  <img width="130px" src="img/agoda.jpg" alt="agoda">
-                                  <img width="130px" src="img/Skyscanner.jpg" alt="Skyscanner">
+                          <!-- Inpput 2 -->
+                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <label for="to">To</label>
+                            <div class="input-group date">
+                                <div class="input-group-text icon-input input-group-text icon-input bg-white border-0 p-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path>
+                                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+                                    </svg>                      
                                </div>
+                                    <input type="text" class="form-control border-0" id="to" placeholder="Enter city or airport">
                               </div>
-                            </div>
                         </div>
+                      </div>
+                      <!-- Radio -->
+                    <div class="d-flex gap-5 my-4">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Round-trip
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                One-way
+                            </label>
+                        </div>
+                    </div>
+                    <!-- Date -->
+                    <div class="date my-4 row">
+                        <div class="col-6 m-0">
+                            <input type="date" id="depart" class="date-item w-100">
+                          </div>
+                          <div class=" col-6 m-0">
+                            <input type="date" id="return" placeholder="Return" class="date-item w-100">
+                          </div>
+                      </div>
+
+                          <input type="text" class="form-control  my-4 date" placeholder="Receive our travel deals newletter">
+                        <div class="submit mt-3" >
+                            <input type="submit" value="Find deals" class="btn-detail w-100">
+                        </div>
+
+                        <div class="form-check mt-4">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                          <label class="form-check-label" for="flexCheckChecked">
+                            Receive our travel deals newletter
+                          </label>
+                        </div>
+
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex text-center">
+                      <hr class="d-none d-sm-block d-md-block">
+                        <div>
+                          <h5 class="mt-3">We work with mote than 300 partners to bring you better travel deal</h5>
+                          <div class="d-flex justify-content-center">
+                           <div class="d-grid gap-4">
+                              <img width="130px" src="img/booking.png" alt="booking">
+                              <img width="130px" src="img/agoda.jpg" alt="agoda">
+                              <img width="130px" src="img/Skyscanner.jpg" alt="Skyscanner">
+                           </div>
+                          </div>
+                        </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
         </main>
+      </div>
         <!-- البار السفلي -->
-        <footer class="text-muted py-3 bg-white mt-3">
-            <div class="container">
+        <footer class="text-muted pb-3 bg-white">
+          <section class="container">
+            <h3 class="text-center text-black pt-3">Informed Travel During COVIDE-19</h3>
+            <div class="row align-items-md-stretch">
+              <div class="col-md-6 pb-2">
+                <div class="col-12 border p-2 mt-2 rounded">
+                  <img src="img/air-icon.png" width="70px" alt="airplan icon">
+                  <span class="h4 text-black ms-2">Committed to Healthy flying</span>
+                </div>
+                <div class="col-12 border p-2 mt-2 rounded">
+                  <img src="img/flexible.png" width="70px" alt="airplan icon">
+                  <span class="h4 text-black ms-2">Flexible Booking</span>
+                </div>
+                <div class="col-12 border p-2 mt-2 rounded">
+                  <img src="img/entry.jpg" width="70px" alt="airplan icon">
+                  <span class="h4 text-black ms-2">Entry Restriction by Country/Region</span>
+                </div>
+              </div>
+              <div class="col-md-6 position-relative">
+                <img src="img/coved-map.jpg" width="100%" alt="coved">
+                <div class="position-absolute map-content">
+                  <h5 class="text-white">Can I go to...?</h5>
+                  <span class="w-50 text-white">
+                    Travel informd Use our interactive map to view exit and entry restriction around the world
+                  </span> <br>
+                  <a href='https://coronavirus.data.gov.uk/details/interactive-map/cases' target="_blanck" class='btn btn-detail mt-3 text-white'>View Map</a>  
+                </div>
+              </div>
+            </div>
+
+            <h3 class="text-center mt-3 text-black">Popular Routes</h3>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-3">
+              <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="card mb-4 shadow-sm ">
+                  <img class="img-card" src="img/image.jpg" alt="">
+                  <div class="px-3">
+                      <div class="card card-aps shadow">
+                        <div class="text-center text-black mt-2">
+                          <span class="h4 mx-2">Riyadh</span>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-left-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5zm14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5z"/>
+                          </svg>
+                          <span class="h4 mx-2">Dubai</span>
+                        </div>
+                        <p class="mx-2 m-1">Round-trip | Sat, dec 18-Wed...</p>
+                        <span class="mx-2 text-end text-black">From <strong>212$</strong></span>
+
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="card mb-4 shadow-sm ">
+                  <img class="img-card" src="img/db-1.jpeg" alt="">
+                  <div class="px-3">
+                      <div class="card card-aps shadow">
+                        <div class="text-center text-black mt-2">
+                          <span class="h4 mx-2">Riyadh</span>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-left-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5zm14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5z"/>
+                          </svg>
+                          <span class="h4 mx-2">Manila</span>
+                        </div>
+                        <p class="mx-2 m-1">Round-trip | Sat, dec 18-Wed...</p>
+                        <span class="mx-2 text-end text-black">From <strong>212$</strong></span>
+
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="card mb-4 shadow-sm ">
+                  <img class="img-card" src="img/db-2.jpg" alt="">
+                  <div class="px-3">
+                      <div class="card card-aps shadow">
+                        <div class="text-center text-black mt-2">
+                          <span class="h4 mx-2">Riyadh</span>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-left-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5zm14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5z"/>
+                          </svg>
+                          <span class="h4 mx-2">Jeddah</span>
+                        </div>
+                        <p class="mx-2 m-1">Round-trip | Sat, dec 18-Wed...</p>
+                        <span class="mx-2 text-end text-black">From <strong>212$</strong></span>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="card mb-4 shadow-sm ">
+                  <img class="img-card" src="img/db-3.webp" alt="">
+                  <div class="px-3">
+                      <div class="card card-aps shadow">
+                        <div class="text-center text-black mt-2">
+                          <span class="h4 mx-2">Riyadh</span>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-left-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5zm14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5z"/>
+                          </svg>
+                          <span class="h4 mx-2">London</span>
+                        </div>
+                        <p class="mx-2 m-1">Round-trip | Sat, dec 18-Wed...</p>
+                        <span class="mx-2 text-end text-black">From <strong>212$</strong></span>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </section>
+            <div class="container mt-5">
                 <div class="row">
                     <p class="float-end mb-1 col-md-2 text-center">
                         <img width="100px" src="img/logo.png" alt="logo">
@@ -359,8 +482,8 @@
                     <a href="#">Terms & Conditions</a>
                     <a href="#">About us</a>
                 </div>
-        
             </div>
+
         </footer>
     </div>
 </body>
